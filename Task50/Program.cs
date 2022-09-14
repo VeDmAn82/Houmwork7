@@ -10,7 +10,7 @@ bool isNumber2 = int.TryParse(Console.ReadLine(), out int n);
 Console.Write("Введите искомое число: ");
 bool isNumber3 = int.TryParse(Console.ReadLine(), out int x);
 
-if (!isNumber1 || !isNumber2 || n <= 0 || m <= 0)
+if (!isNumber1 || !isNumber2 || !isNumber3 || n <= 0 || m <= 0 || x < 0)
 {
     Console.WriteLine("Invalid number");
     return;
